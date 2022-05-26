@@ -4,7 +4,7 @@ define([
     "use strict";
     $.widget('weather.provider', {
         options: {
-            url: 'weather/weather/data',
+            url: '/weather/weather/data',
             method: 'post',
             triggerEvent: 'click'
         },
